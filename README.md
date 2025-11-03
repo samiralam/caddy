@@ -27,6 +27,8 @@ Deploy a hassle-free Caddy server with built-in support for Cloudflare DNS-01 AC
 - **Continuous Integration**: Utilizes GitHub Actions for seamless CI/CD.
 - **Cloudflare DNS Integration**: Integrates Cloudflare DNS for automatic SSL certificate management.
 - **Cloudflare Proxy IP Trust**: Includes the [caddy-cloudflare-ip](https://github.com/WeidiDeng/caddy-cloudflare-ip) module to automatically trust Cloudflare’s proxy IP ranges, ensuring correct client IP addresses are passed through and logged.
+- **Application Security**: Bundles the [caddy-security](https://github.com/greenpau/caddy-security) plugin to add authentication and authorization capabilities.
+- **WebDAV Support**: Adds the [caddy-webdav](https://github.com/mholt/caddy-webdav) module for WebDAV file management.
 - **Multi-Platform Support**: Builds images for multiple architectures, including `amd64`, `arm64`, `arm/v7` (Raspberry Pi), `ppc64le`, and `s390x` , ensuring compatibility across a wide range of devices and systems.
 - **Alpine-based Image**: Provides a lightweight Alpine-based image for smaller size and faster deployment.
 - **Manual Trigger**: Allows manual triggering of the build process.
